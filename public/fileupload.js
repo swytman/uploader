@@ -1,6 +1,6 @@
 (function ($) {
     var post_path = 'http://zel-football.ru:8111/files'; // url для сохранения
-
+//    var post_path = 'http://localhost:3000/files'; // url для сохранения
     var new_input_template =
         '<div class="input-group"> \
             <span class="input-group-btn">\
