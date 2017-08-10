@@ -4,7 +4,7 @@ set :deploy_to, '/var/www/uploader'
 set :current_path,  "#{fetch(:deploy_to)}/current"
 set :unicorn_conf, "#{fetch(:deploy_to)}/current/config/unicorn/#{fetch(:stage)}.rb"
 set :unicorn_pid, "#{fetch(:deploy_to)}/shared/pids/unicorn.pid"
-set :linked_files, %w{config/database.yml}
+set :linked_files, %w{config/database.yml config/secrets.yml}
 set :linked_dirs, %w{public/files}
 
 # UNICORN
