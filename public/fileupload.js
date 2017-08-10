@@ -1,5 +1,5 @@
 (function ($) {
-    var post_path = '/files'
+    var post_path = '/files'; // url для сохранения
 
     var new_input_template =
         '<div class="input-group"> \
@@ -59,6 +59,6 @@
         $("input[data-file-upload=true]").each(function() {
             new NewFileInput(this);
         });
-    })
+    });
 
 })(window.jQuery);

@@ -15,6 +15,9 @@
 /log/*
 /tmp/*
 /public/system/*
+/public/files/*
+.idea
+/.idea/*
 !/log/.keep
 !/tmp/.keep
 
